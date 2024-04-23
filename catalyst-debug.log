@@ -1,0 +1,40 @@
+[debug] [2024-04-09T09:20:21.554Z] : 
+[debug] [2024-04-09T09:20:21.555Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T09:20:21.555Z] : Command:      /usr/local/bin/node /usr/local/bin/catalyst serve
+[debug] [2024-04-09T09:20:21.555Z] : CLI Version:  1.17.4
+[debug] [2024-04-09T09:20:21.556Z] : Platform:     darwin
+[debug] [2024-04-09T09:20:21.556Z] : Node Version: v21.5.0
+[debug] [2024-04-09T09:20:21.556Z] : Time:         Tue Apr 09 2024 10:20:21 GMT+0100 (Irish Standard Time)
+[debug] [2024-04-09T09:20:21.556Z] : ----------------------------------------------------------------------
+[debug] [2024-04-09T09:20:21.556Z] : 
+[debug] [2024-04-09T09:20:21.796Z] : > authorizing via signed-in user option
+[debug] [2024-04-09T09:20:21.796Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-09T09:20:21.801Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17937000000058074 
+
+[debug] [2024-04-09T09:20:22.504Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 09:20:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=0c66b75a-251a-4ce4-8b58-ce574bec506e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0c66b75a-251a-4ce4-8b58-ce574bec506e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T09:20:22.506Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17937000000058074/environment 
+
+[debug] [2024-04-09T09:20:22.740Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 09:20:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=791d927f-f2ea-4f90-8292-40eb35210e18;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=791d927f-f2ea-4f90-8292-40eb35210e18;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T09:20:22.819Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2024-04-09T09:20:22.823Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/17937000000058074/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-09T09:20:23.054Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 09 Apr 2024 09:20:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["46512fd555=00fd3a8cbff58bc9307e4ac5869875ce; Path=/","ZD_CSRF_TOKEN=f69ece4c-f362-4a0b-9138-3b90b1f11bbf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f69ece4c-f362-4a0b-9138-3b90b1f11bbf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-09T09:20:23.055Z] : unknown eol undefined hence skipping check
+[info] [2024-04-09T09:20:23.375Z] : 
+[info] [2024-04-09T09:20:23.375Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-09T09:20:23.375Z] : ℹ crm_crud: http://localhost:3001/server/crm_crud/
+[info] [2024-04-09T09:20:23.375Z] : 
+[info] [2024-04-09T09:20:23.375Z] : 
+[info] [2024-04-09T09:20:23.375Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-09T09:20:23.375Z] : ℹ client[LeadManagerApp]: http://localhost:3001/app/
+[info] [2024-04-09T09:20:23.375Z] : 
+[info] [2024-04-09T09:53:21.668Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-09T09:53:26.647Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-09T09:53:28.544Z] : Change(s) is detected in index.html of the Web-Client.

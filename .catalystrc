@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "17937000000058074",
+      "name": "LeadManager",
+      "domain": {
+        "id": "10078801875",
+        "name": "leadmanager-814842417.development"
+      },
+      "timezone": "Europe/Dublin",
+      "env": [
+        {
+          "idx": 1,
+          "id": "814842417",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
